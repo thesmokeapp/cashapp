@@ -6,6 +6,7 @@ const { Client, Environment } = require('square');
 
 const client = new Client({
   environment: Environment.Sandbox,
+  //accessToken: 'EAAAEIYxxvL05a-aAz9-I6GafUpwQa0omZxANgSQh820SkYcxcPs-HTS14RxAoMy',
   accessToken: 'EAAAEIYxxvL05a-aAz9-I6GafUpwQa0omZxANgSQh820SkYcxcPs-HTS14RxAoMy',
 })
 const paymentsApi = client.paymentsApi;
